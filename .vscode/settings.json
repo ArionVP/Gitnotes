@@ -2,6 +2,7 @@
     "conventionalCommits.scopes": [
         ".gitnore",
         "venv",
-        "vscode"
+        "vscode",
+        "scr"
     ]
 }
