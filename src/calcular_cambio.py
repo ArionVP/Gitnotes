@@ -13,9 +13,11 @@
 
 def calcular_cambio(pago):
     
+    assert isinstance(pago, int)                    # El pago debe ser un número entero
+    
     numeroDeMonedas = [0, 0, 0]
     
-    if pago == 0:
+    if pago <= 0:
         return numeroDeMonedas
    
     tiposDeMonedas = [5, 2, 1]
@@ -31,7 +33,8 @@ def calcular_cambio(pago):
                 break
             else:
                 monedaIndex += 1
-    
+                assert monedaIndex < len(tiposDeMonedas)
+    assert pago == 0
     return numeroDeMonedas
 
 #print(euros(8))
@@ -46,3 +49,4 @@ assert calcular_cambio(29) == [5, 2, 0]
 #print(calcular_cambio(0))
 assert calcular_cambio(0) == [0, 0, 0]
 #>>> (0, 0, 0) # ninguna de 5 cénts, ninguna de 2 cénts y 1 de cénts.
+assert calcular_cambio(-1) == [0, 0, 0]
