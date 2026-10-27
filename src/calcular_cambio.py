@@ -1,4 +1,4 @@
-# coding = utf-8
+# coding = utf-8  # noqa: EXE002
 
 
 # Define un prodecimiento, euros, que toma como entrada un entero positivo en euros
