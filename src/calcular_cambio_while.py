@@ -16,15 +16,16 @@ def calcular_cambio(pago):
     assert isinstance(pago, int)                    # El pago debe ser un número entero
     
     numeroDeMonedas = [0, 0, 0]
+    tiposDeMonedas = [5, 2, 1]
     
     if pago <= 0:
         return numeroDeMonedas
-                                                    # while()
+                                                    
                                 # monedaIndex es la posicion en el array que te dice el numero de monedas
     while pago != 0:
-        numeroDeMonedas[0] = pago // 5
-        numeroDeMonedas[1] = (pago % 5) // 2
-        numeroDeMonedas[2] = ((pago % 5) % 2) // 1
+        numeroDeMonedas[0] = pago // tiposDeMonedas[0]
+        numeroDeMonedas[1] = (pago % tiposDeMonedas[0]) // tiposDeMonedas[1]
+        numeroDeMonedas[2] = ((pago % tiposDeMonedas[0]) % tiposDeMonedas[1]) // tiposDeMonedas[2]
         break
        
     return numeroDeMonedas
