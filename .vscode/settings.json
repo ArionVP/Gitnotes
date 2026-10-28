@@ -3,6 +3,7 @@
         ".gitnore",
         "venv",
         "vscode",
-        "scr"
+        "scr",
+        "calcular_cambio_while.py"
     ]
 }
