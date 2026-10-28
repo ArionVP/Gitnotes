@@ -32,7 +32,7 @@ def calcular_cambio(pago):
 
 
 #print(euros(8))
-# assert calcular_cambio(8) == [1, 1, 1]
+assert calcular_cambio(8) == [1, 1, 1]
 #>>> (1, 1, 1)  # una de 5 cénts, una de 2 cénts y una de 1 cént.
 #print(calcular_cambio(5))
 # assert calcular_cambio(5) == [1, 0, 0]
