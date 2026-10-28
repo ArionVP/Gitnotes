@@ -4,6 +4,7 @@
         "venv",
         "vscode",
         "scr",
-        "calcular_cambio_while.py"
+        "calcular_cambio_while.py",
+        "settings.json"
     ]
 }
