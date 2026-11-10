@@ -5,6 +5,8 @@
         "vscode",
         "scr",
         "calcular_cambio_while.py",
-        "settings.json"
+        "settings.json",
+        "diccionariodaw.py",
+        "ejercicio_diccionario_daw.py"
     ]
 }
