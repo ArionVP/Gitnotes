@@ -7,7 +7,12 @@
         "calcular_cambio_while.py",
         "settings.json",
         "diccionariodaw.py",
-        "ejercicio_diccionario_daw.py"
+        "ejercicio_diccionario_daw.py",
+        "ejercicio03_diccionario_daw.py",
+        "ejercicio04_diccionario_daw.py",
+        "ejercicio05_diccionario_daw.py",
+        "ejercicio06_diccionario_daw-py",
+        "ejercicio06_diccionario_daw.py"
     ],
     "python-envs.defaultEnvManager": "ms-python.python:system"
 }
