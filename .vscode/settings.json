@@ -8,5 +8,6 @@
         "settings.json",
         "diccionariodaw.py",
         "ejercicio_diccionario_daw.py"
-    ]
+    ],
+    "python-envs.defaultEnvManager": "ms-python.python:system"
 }
